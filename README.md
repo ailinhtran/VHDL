@@ -16,4 +16,4 @@ EDITOR NOTES:
 
 *Note that all projects also have testbenches in order to simulate the design on modelsim as well. 
 
-*Changed to 'git config core.safecrlf false'
+*Changed to 'git config core.safecrlf false' in order to add files on github
