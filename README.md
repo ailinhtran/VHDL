@@ -13,5 +13,7 @@ These are the projects I did in ENEL 453 using VHDL and a Intel DE10-Lite Board,
 4. Last lab uses a buzzer that makes a noise and increases in frequency the closer the object is to the distance sensor on the board. In addition, using PWM, the lights on the FPGA board get brighter the closer the object is to the distance sensor on the board. Finally, the light flash when the object is 20cm away from the board and increases flashing frequency when the object gets closer to the distance sensor. 
 
 EDITOR NOTES:
+
 *Note that all projects also have testbenches in order to simulate the design on modelsim as well. 
+
 *Changed to 'git config core.safecrlf false'
