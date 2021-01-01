@@ -1,0 +1,334 @@
+C:/Users/kylie/Desktop/LAB3FINALCODE/voltage2distance_array2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/voltage2distance_array2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package LUT_pkg
+-- Compiling entity voltage2distance_array2
+-- Compiling architecture behavior of voltage2distance_array2
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/tb_top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/tb_top_level.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_top_level
+-- Compiling architecture tb of tb_top_level
+-- Compiling configuration cfg_tb_top_level
+-- Loading entity tb_top_level
+-- Loading architecture tb of tb_top_level
+-- Loading package NUMERIC_STD
+-- Loading entity top_level
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/voltage2distance_array2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/voltage2distance_array2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package LUT_pkg
+-- Compiling entity voltage2distance_array2
+-- Compiling architecture behavior of voltage2distance_array2
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/tb_MUX5TO1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/tb_MUX5TO1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_MUX5TO1
+-- Compiling architecture tb of tb_MUX5TO1
+-- Compiling configuration cfg_tb_MUX5TO1
+-- Loading entity tb_MUX5TO1
+-- Loading architecture tb of tb_MUX5TO1
+-- Loading entity MUX5TO1
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/tb_MUX5TO1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/tb_MUX5TO1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_MUX5TO1
+-- Compiling architecture tb of tb_MUX5TO1
+-- Compiling configuration cfg_tb_MUX5TO1
+-- Loading entity tb_MUX5TO1
+-- Loading architecture tb of tb_MUX5TO1
+-- Loading entity MUX5TO1
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/tb_register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/tb_register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_Reg8
+-- Compiling architecture tb of tb_Reg8
+-- Compiling configuration cfg_tb_Reg8
+-- Loading entity tb_Reg8
+-- Loading architecture tb of tb_Reg8
+-- Loading entity Reg8
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/tb_register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/tb_register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_Reg8
+-- Compiling architecture tb of tb_Reg8
+-- Compiling configuration cfg_tb_Reg8
+-- Loading entity tb_Reg8
+-- Loading architecture tb of tb_Reg8
+-- Loading entity Reg8
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/tb_synchronizer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/tb_synchronizer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_synchronizer
+-- Compiling architecture tb of tb_synchronizer
+-- Compiling configuration cfg_tb_synchronizer
+-- Loading entity tb_synchronizer
+-- Loading architecture tb of tb_synchronizer
+-- Loading entity synchronizer
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/tb_synchronizer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/tb_synchronizer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_synchronizer
+-- Compiling architecture tb of tb_synchronizer
+-- Compiling configuration cfg_tb_synchronizer
+-- Loading entity tb_synchronizer
+-- Loading architecture tb of tb_synchronizer
+-- Loading entity synchronizer
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/SevenSegment.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/SevenSegment.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SevenSegment
+-- Compiling architecture Behavioral of SevenSegment
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/SevenSegment.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/SevenSegment.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SevenSegment
+-- Compiling architecture Behavioral of SevenSegment
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Reg8
+-- Compiling architecture BEHAV of Reg8
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/binary_bcd.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/binary_bcd.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity binary_bcd
+-- Compiling architecture behavior of binary_bcd
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/ADC_Conversion_wrapper.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/ADC_Conversion_wrapper.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ADC_Conversion_wrapper
+-- Compiling architecture RTL of ADC_Conversion_wrapper
+-- Compiling architecture simulation of ADC_Conversion_wrapper
+-- Loading entity ADC_Conversion_wrapper
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/ADC_Conversion_wrapper.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/ADC_Conversion_wrapper.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ADC_Conversion_wrapper
+-- Compiling architecture RTL of ADC_Conversion_wrapper
+-- Compiling architecture simulation of ADC_Conversion_wrapper
+-- Loading entity ADC_Conversion_wrapper
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/binary_bcd.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/binary_bcd.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity binary_bcd
+-- Compiling architecture behavior of binary_bcd
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Reg8
+-- Compiling architecture BEHAV of Reg8
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/tb_ADC_data.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/tb_ADC_data.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_ADC_Data
+-- Compiling architecture tb of tb_ADC_Data
+-- Compiling configuration cfg_tb_ADC_Data
+-- Loading entity tb_ADC_Data
+-- Loading architecture tb of tb_ADC_Data
+-- Loading package NUMERIC_STD
+-- Loading entity ADC_Data
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/synchronizer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/synchronizer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity synchronizer
+-- Compiling architecture Behavioral of synchronizer
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/tb_ADC_data.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/tb_ADC_data.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_ADC_Data
+-- Compiling architecture tb of tb_ADC_Data
+-- Compiling configuration cfg_tb_ADC_Data
+-- Loading entity tb_ADC_Data
+-- Loading architecture tb of tb_ADC_Data
+-- Loading package NUMERIC_STD
+-- Loading entity ADC_Data
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/muxdp.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/muxdp.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUXDP
+-- Compiling architecture BEHAVIOR of MUXDP
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/synchronizer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/synchronizer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity synchronizer
+-- Compiling architecture Behavioral of synchronizer
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/SevenSegment_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/SevenSegment_decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SevenSegment_decoder
+-- Compiling architecture Behavioral of SevenSegment_decoder
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/ADC_Data.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/ADC_Data.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ADC_Data
+-- Compiling architecture rtl of ADC_Data
+-- Loading entity ADC_Conversion_wrapper
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/SevenSegment_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/SevenSegment_decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SevenSegment_decoder
+-- Compiling architecture Behavioral of SevenSegment_decoder
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/top_level.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top_level
+-- Compiling architecture Behavioral of top_level
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/tb_debounce.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/tb_debounce.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_debounce
+-- Compiling architecture Behavioral of tb_debounce
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/averager256.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/averager256.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity averager256
+-- Compiling architecture rtl of averager256
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/tb_debounce.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/tb_debounce.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_debounce
+-- Compiling architecture Behavioral of tb_debounce
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/top_level.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top_level
+-- Compiling architecture Behavioral of top_level
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/MUX5TO1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/MUX5TO1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX5TO1
+-- Compiling architecture BEHAVIOR of MUX5TO1
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/MUX5TO1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/MUX5TO1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX5TO1
+-- Compiling architecture BEHAVIOR of MUX5TO1
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/debounce.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/debounce.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity debounce
+-- Compiling architecture logic of debounce
+
+} {} {}} C:/Users/Aleena/Desktop/LAB3FINALCODE/debounce.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Aleena/Desktop/LAB3FINALCODE/debounce.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity debounce
+-- Compiling architecture logic of debounce
+
+} {} {}} C:/Users/kylie/Desktop/LAB3FINALCODE/LUT_pkg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/kylie/Desktop/LAB3FINALCODE/LUT_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package LUT_pkg
+
+} {} {}}
