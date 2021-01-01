@@ -1,0 +1,100 @@
+-- Testbench automatically generated online
+-- at https://vhdl.lapinoo.net
+-- Generation date : 22.10.2020 02:48:34 UTC
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity tb_MUX4TO1 is
+end tb_MUX4TO1;
+
+architecture tb of tb_MUX4TO1 is
+
+    component MUX4TO1
+        port (in1     : in std_logic_vector (15 downto 0);
+              in2     : in std_logic_vector (15 downto 0);
+              in3     : in std_logic_vector (15 downto 0);
+              in4     : in std_logic_vector (15 downto 0);
+              s8      : in std_logic;
+              s9      : in std_logic;
+              mux_out : out std_logic_vector (15 downto 0));
+    end component;
+
+    signal in1     : std_logic_vector (15 downto 0);
+    signal in2     : std_logic_vector (15 downto 0);
+    signal in3     : std_logic_vector (15 downto 0);
+    signal in4     : std_logic_vector (15 downto 0);
+    signal s8      : std_logic;
+    signal s9      : std_logic;
+    signal mux_out : std_logic_vector (15 downto 0);
+
+    constant TbPeriod : time := 20 ns; -- EDIT Put right period here, changed to 20 ns
+    signal TbClock : std_logic := '0';
+    signal TbSimEnded : std_logic := '0';
+
+begin
+
+    dut : MUX4TO1
+    port map (in1     => in1,
+              in2     => in2,
+              in3     => in3,
+              in4     => in4,
+              s8      => s8,
+              s9      => s9,
+              mux_out => mux_out);
+
+    -- Clock generation
+    TbClock <= not TbClock after TbPeriod/2 when TbSimEnded /= '1' else '0';
+
+    --  EDIT: Replace YOURCLOCKSIGNAL below by the name of your clock as I haven't guessed it
+    --  YOURCLOCKSIGNAL <= TbClock;
+
+    stimuli : process
+    begin
+        -- EDIT Adapt initialization as needed
+        in1 <= (others => '0');
+        in2 <= (others => '0');
+        in3 <= (others => '0');
+        in4 <= (others => '0');
+        s8 <= '0';
+        s9 <= '0';
+
+        -- EDIT Add stimuli here
+        wait for TbPeriod; 
+		  in1 <= "0000000000000000"; in2 <= "1111111111111111"; in3 <= "1000000000000000"; in4 <= "0111111111111111";
+		  wait for TbPeriod;
+		  in1 <= "1111111111111111"; in2 <= "0000000000000000"; in3 <= "0111111111111111"; in4 <= "1000000000000000";
+		  s8 <= '0'; s9 <= '1';
+		  wait for TbPeriod;
+		  in1 <= "0000000000000000"; in2 <= "1111111111111111"; in3 <= "1000000000000000"; in4 <= "0111111111111111";
+		  wait for TbPeriod;
+		  in1 <= "1111111111111111"; in2 <= "0000000000000000"; in3 <= "0111111111111111"; in4 <= "1000000000000000";
+		  s8 <= '0'; s9 <= '1';
+		  wait for TbPeriod;
+		  in1 <= "0000000000000000"; in2 <= "1111111111111111"; in3 <= "1000000000000000"; in4 <= "0111111111111111";
+		  wait for TbPeriod;
+		  in1 <= "1111111111111111"; in2 <= "0000000000000000"; in3 <= "0111111111111111"; in4 <= "1000000000000000";
+		  s8 <= '1'; s9 <= '0';
+		  wait for TbPeriod;
+		  in1 <= "0000000000000000"; in2 <= "1111111111111111"; in3 <= "1000000000000000"; in4 <= "0111111111111111";
+		  wait for TbPeriod;
+		  in1 <= "1111111111111111"; in2 <= "0000000000000000"; in3 <= "0111111111111111"; in4 <= "1000000000000000";
+		  s8 <= '1'; s9 <= '1';
+		  in1 <= "0000000000000000"; in2 <= "1111111111111111"; in3 <= "1000000000000000"; in4 <= "0111111111111111";
+		  wait for TbPeriod;
+		  in1 <= "1111111111111111"; in2 <= "0000000000000000"; in3 <= "0111111111111111"; in4 <= "1000000000000000";
+		  wait for TbPeriod;
+		  
+        -- Stop the clock and hence terminate the simulation
+        TbSimEnded <= '1';
+        wait;
+    end process;
+
+end tb;
+
+-- Configuration block below is required by some simulators. Usually no need to edit.
+
+configuration cfg_tb_MUX4TO1 of tb_MUX4TO1 is
+    for tb
+    end for;
+end cfg_tb_MUX4TO1;

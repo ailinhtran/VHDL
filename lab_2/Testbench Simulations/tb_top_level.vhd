@@ -1,0 +1,122 @@
+-- Testbench automatically generated online
+-- at https://vhdl.lapinoo.net
+-- Generation date : 22.10.2020 02:47:05 UTC
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity tb_top_level is
+end tb_top_level;
+
+architecture tb of tb_top_level is
+
+    component top_level
+        port (clk     : in std_logic;
+              reset_n : in std_logic;
+              button  : in std_logic;
+              SW      : in std_logic_vector (9 downto 0);
+              LEDR    : out std_logic_vector (9 downto 0);
+              HEX0    : out std_logic_vector (7 downto 0);
+              HEX1    : out std_logic_vector (7 downto 0);
+              HEX2    : out std_logic_vector (7 downto 0);
+              HEX3    : out std_logic_vector (7 downto 0);
+              HEX4    : out std_logic_vector (7 downto 0);
+              HEX5    : out std_logic_vector (7 downto 0));
+    end component;
+
+    signal clk     : std_logic;
+    signal reset_n : std_logic;
+    signal button  : std_logic;
+    signal SW      : std_logic_vector (9 downto 0);
+    signal LEDR    : std_logic_vector (9 downto 0);
+    signal HEX0    : std_logic_vector (7 downto 0);
+    signal HEX1    : std_logic_vector (7 downto 0);
+    signal HEX2    : std_logic_vector (7 downto 0);
+    signal HEX3    : std_logic_vector (7 downto 0);
+    signal HEX4    : std_logic_vector (7 downto 0);
+    signal HEX5    : std_logic_vector (7 downto 0);
+
+    constant TbPeriod : time := 20 ns;
+    signal TbClock : std_logic := '0';
+    signal TbSimEnded : std_logic := '0';
+	 signal stable_time_tb :  time := 70 ms; --30000 ns; --added
+	 signal some_delay     :  time := 3 ns; --added
+
+begin
+
+    dut : top_level
+    port map (clk     => clk,
+              reset_n => reset_n,
+              button  => button,
+              SW      => SW,
+              LEDR    => LEDR,
+              HEX0    => HEX0,
+              HEX1    => HEX1,
+              HEX2    => HEX2,
+              HEX3    => HEX3,
+              HEX4    => HEX4,
+              HEX5    => HEX5);
+
+    -- Clock generation
+    TbClock <= not TbClock after TbPeriod/2 when TbSimEnded /= '1' else '0';
+
+    -- EDIT: Check that clk is really your main clock signal
+    clk <= TbClock;
+
+    stimuli : process
+    begin
+        -- EDIT Adapt initialization as needed
+        button <= '1'; --CHANGED to 1
+        SW <= (others => '0');
+
+        -- Reset generation
+        -- EDIT: Check that reset_n is really your reset signal
+        reset_n <= '0'; --ACTIVE-LOW RESET
+        wait for 100 ns;
+        reset_n <= '1';
+        wait for 100 ns;
+
+--		  A testbench for the top_level, demonstrating the system operating in all 4 modes: 
+--		  Hexadecimal, Decimal, Stored, Hard-coded, and showing Reset behavior. 
+--		  Also showing debounce behavior.
+		  
+        -- EDIT Add stimuli here
+        wait for 3600000 * TbPeriod;
+		  --     9876543210
+		  SW <= "0011111111"; wait for 3600000 * TbPeriod; --255
+		  button <= '0'; wait for 3600000 * TbPeriod;
+		  button <= '1'; wait for 3600000 * TbPeriod;
+		  SW <= "0100000000"; wait for 3600000 * TbPeriod; --Stored 255 even though bits 0 to 6 changed
+		  SW <= "1011111111"; wait for 3600000 * TbPeriod; --FF
+		  button <= '0'; wait for 3600000 * TbPeriod;
+		  button <= '1'; wait for 3600000 * TbPeriod;
+		  SW <= "0100000000"; wait for 3600000 * TbPeriod; --Stored FF
+		  SW <= "1111111111"; wait for 3600000 * TbPeriod; --Hard-coded
+		  button <= '0'; wait for 3600000 * TbPeriod;
+		  button <= '1'; wait for 3600000 * TbPeriod;
+		  SW <= "0100000000"; wait for 3600000 * TbPeriod; --Stored Hard-coded
+		  reset_n <= '0'; wait for 3600000 * TbPeriod; --All zeroes
+		  reset_n <= '1'; wait for 3600000 * TbPeriod; --Remains all zeroes
+		  SW <= "0011111111"; wait for 3600000 * TbPeriod; --255
+		  
+		  -- debounce behavior
+		  button <= '0'; wait for 100 ns;
+        button <= '1'; wait for 100 ns;
+        button <= '0'; wait for 100 ns;
+        button <= '1'; wait for 100 ns;
+		  button <= '0'; wait for stable_time_tb + some_delay;
+		  SW <= "0100000000"; wait for 3600000 * TbPeriod; 
+		  
+        -- Stop the clock and hence terminate the simulation
+        TbSimEnded <= '1';
+        wait;
+    end process;
+
+end tb;
+
+-- Configuration block below is required by some simulators. Usually no need to edit.
+
+configuration cfg_tb_top_level of tb_top_level is
+    for tb
+    end for;
+end cfg_tb_top_level;
