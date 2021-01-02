@@ -10,7 +10,7 @@ These are the projects I did in ENEL 453 using VHDL and a Intel DE10-Lite Board,
 
 3. Third lab uses ADC to use a sensor to determine the voltage and distance from the sensor on the FPGA board. It also uses a push button to hold the value as the value fluctuates a lot on the actual board. 
 
-4. Last lab uses a buzzer that makes a noise and increases in frequency the closer the object is to the distance sensor on the board. In addition, using PWM, the lights on the FPGA board get brighter the closer the object is to the distance sensor on the board. Finally, the light flash when the object is 20cm away from the board and increases flashing frequency when the object gets closer to the distance sensor. 
+4. Last lab uses a buzzer that makes a noise and increases in frequency the closer the object is to the distance sensor on the board. In addition, using PWM, the lights on the FPGA board get brighter the closer the object is to the distance sensor on the board. Finally, the lights flash when the object is 20cm away from the board and increases flashing frequency when the object gets closer to the distance sensor. 
 
 EDITOR NOTES:
 
