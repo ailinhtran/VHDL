@@ -1,0 +1,1508 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/kylie/Desktop/Fall 2020/ENEL 453/Labs/Lab 4/lab4_code
+Eadc_conversion_wrapper
+Z0 w1607280502
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 204
+Z3 dC:/Users/kylie/Desktop/lab4
+Z4 8C:/Users/kylie/Desktop/lab4/ADC_Conversion_wrapper.vhd
+Z5 FC:/Users/kylie/Desktop/lab4/ADC_Conversion_wrapper.vhd
+l0
+L4 1
+VB?86R5UoX7S2lmRYIzIMS2
+!s100 KH;=f<oN;9WCTDm@QNBBJ1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1607314765
+!i10b 1
+Z8 !s108 1607314765.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/ADC_Conversion_wrapper.vhd|
+Z10 !s107 C:/Users/kylie/Desktop/lab4/ADC_Conversion_wrapper.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Asimulation
+R1
+R2
+Z13 DEx4 work 22 adc_conversion_wrapper 0 22 B?86R5UoX7S2lmRYIzIMS2
+!i122 204
+l32
+L29 69
+Vi2kh07eNkFdL;49Y3n6MP2
+!s100 [UfIN6H[XTWaW8?T=]85W2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R13
+!i122 204
+l20
+L11 17
+V0hdTc:nn_LghWHZXNG^5S1
+!s100 NlobMAB?UNPBi]M<?UZWP1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eadc_data
+Z14 w1607314756
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 205
+R3
+Z16 8C:/Users/kylie/Desktop/lab4/ADC_Data.vhd
+Z17 FC:/Users/kylie/Desktop/lab4/ADC_Data.vhd
+l0
+L5 1
+V3n4fooJXC0K:cdF`D0ON[0
+!s100 `G?]RH?bRVP9QLBH_afZI1
+R6
+32
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/ADC_Data.vhd|
+Z19 !s107 C:/Users/kylie/Desktop/lab4/ADC_Data.vhd|
+!i113 1
+R11
+R12
+Artl
+R13
+R15
+R1
+R2
+Z20 DEx4 work 8 adc_data 0 22 3n4fooJXC0K:cdF`D0ON[0
+!i122 205
+l62
+L15 91
+V4PJKQIG`Se:_:eSMWUG@W3
+!s100 ]N4X_z>Xc^_9oCnV?jCKi1
+R6
+32
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Eaverager256
+Z21 w1607280566
+R15
+R1
+R2
+!i122 206
+R3
+Z22 8C:/Users/kylie/Desktop/lab4/averager256.vhd
+Z23 FC:/Users/kylie/Desktop/lab4/averager256.vhd
+l0
+Z24 L10 1
+V_CUX^0>VNcl[Eh>P]8Za^3
+!s100 PTQlD5=WnNQ@eNmcPZ4:[2
+R6
+32
+R7
+!i10b 1
+R8
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/averager256.vhd|
+Z26 !s107 C:/Users/kylie/Desktop/lab4/averager256.vhd|
+!i113 1
+R11
+R12
+Artl
+R15
+R1
+R2
+DEx4 work 11 averager256 0 22 _CUX^0>VNcl[Eh>P]8Za^3
+!i122 206
+l45
+L26 73
+V^VDEMBVn2`P7H`5zoG1FM0
+!s100 oVVcD>1mTPn]3H=W2o?hZ1
+R6
+32
+R7
+!i10b 1
+R8
+R25
+R26
+!i113 1
+R11
+R12
+Ebinary_bcd
+Z27 w1607280574
+R15
+R1
+R2
+!i122 207
+R3
+Z28 8C:/Users/kylie/Desktop/lab4/binary_bcd.vhd
+Z29 FC:/Users/kylie/Desktop/lab4/binary_bcd.vhd
+l0
+L8 1
+V0:9zdOIA`o`LF2cmkOC^P3
+!s100 gQzX;=HeN]3[lj0[@2mb]2
+R6
+32
+R7
+!i10b 1
+R8
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/binary_bcd.vhd|
+Z31 !s107 C:/Users/kylie/Desktop/lab4/binary_bcd.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R15
+R1
+R2
+DEx4 work 10 binary_bcd 0 22 0:9zdOIA`o`LF2cmkOC^P3
+!i122 207
+l27
+L17 68
+Vkk0@KWb1@9aV]WcFQb8d>1
+!s100 :^^564DjXHL3Y8gXOzS=f0
+R6
+32
+R7
+!i10b 1
+R8
+R30
+R31
+!i113 1
+R11
+R12
+Ebuzzer_change
+Z32 w1607280310
+Z33 DPx4 work 10 lut_buzzer 0 22 [`8;A[ET`[c3@kD9^B2L62
+R15
+R1
+R2
+!i122 208
+R3
+Z34 8C:/Users/kylie/Desktop/lab4/buzzer_change.vhd
+Z35 FC:/Users/kylie/Desktop/lab4/buzzer_change.vhd
+l0
+L6 1
+VDd[QdS60fW>6>;P]m6Ee71
+!s100 UUaE5C4V<ZYa9ii9kVoTC1
+R6
+32
+R7
+!i10b 1
+R8
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/buzzer_change.vhd|
+Z37 !s107 C:/Users/kylie/Desktop/lab4/buzzer_change.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R33
+R15
+R1
+R2
+DEx4 work 13 buzzer_change 0 22 Dd[QdS60fW>6>;P]m6Ee71
+!i122 208
+l18
+Z38 L15 22
+VSS_P_6J;Q0=j[P_ei=3zB2
+!s100 NYm4>J@@YT8]9^3ckE[cO0
+R6
+32
+R7
+!i10b 1
+R8
+R36
+R37
+!i113 1
+R11
+R12
+Ccfg_tb_adc_data
+etb_ADC_Data
+atb
+R15
+R20
+DAx4 work 11 tb_adc_data 2 tb 22 2[P3WYUn^GW[A6j=>UhNJ0
+R1
+R2
+Z39 DEx4 work 11 tb_adc_data 0 22 [?lm[l=lU]Mf^aJ=5DKVD1
+!i122 227
+Z40 w1607280704
+R3
+Z41 8C:/Users/kylie/Desktop/lab4/tb_ADC_data.vhd
+Z42 FC:/Users/kylie/Desktop/lab4/tb_ADC_data.vhd
+l0
+L78 1
+V<XCj?3HN7YR>koNkEm^`j0
+!s100 DhEC5OjeD1dD8XhZK6HkV3
+R6
+32
+Z43 !s110 1607314768
+!i10b 0
+Z44 !s108 1607314768.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/tb_ADC_data.vhd|
+Z46 !s107 C:/Users/kylie/Desktop/lab4/tb_ADC_data.vhd|
+!i113 1
+R11
+R12
+Ccfg_tb_downcounter
+etb_downcounter
+atb
+R15
+Z47 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z48 DEx4 work 11 downcounter 0 22 QnFPaAU=kmOB?[MPKlL881
+DAx4 work 14 tb_downcounter 2 tb 22 <H0hnEjVcaIK^=gzQl>Wc2
+R1
+R2
+Z49 DEx4 work 14 tb_downcounter 0 22 6k^VW]FF=:?Im4[J]33ZA0
+!i122 229
+Z50 w1607289559
+R3
+Z51 8C:/Users/kylie/Desktop/lab4/tb_down_counter.vhd
+Z52 FC:/Users/kylie/Desktop/lab4/tb_down_counter.vhd
+l0
+L73 1
+VMlhAh`^X1L=eRkV^oJ[>`0
+!s100 RaZbW[Xz5h9loWXEUQ@QA1
+R6
+32
+Z53 !s110 1607314769
+!i10b 0
+R44
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/tb_down_counter.vhd|
+Z55 !s107 C:/Users/kylie/Desktop/lab4/tb_down_counter.vhd|
+!i113 1
+R11
+R12
+Ccfg_tb_mux5to1
+etb_MUX5TO1
+atb
+Z56 DEx4 work 7 mux5to1 0 22 a77TJAXc0Y<0OeR8mD38W2
+DAx4 work 10 tb_mux5to1 2 tb 22 ;`ALj5]bI?[hYYFmnO:8W1
+R1
+R2
+Z57 DEx4 work 10 tb_mux5to1 0 22 `g_d=Hm_1:nE_`@?Sc@8H2
+!i122 230
+Z58 w1607280716
+R3
+Z59 8C:/Users/kylie/Desktop/lab4/tb_MUX5TO1.vhd
+Z60 FC:/Users/kylie/Desktop/lab4/tb_MUX5TO1.vhd
+l0
+L94 1
+VH<GXF@;JFL67UVC^ofm0l3
+!s100 g83c4VnomAKzJAz_?7`E`0
+R6
+32
+R53
+!i10b 0
+Z61 !s108 1607314769.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/tb_MUX5TO1.vhd|
+Z63 !s107 C:/Users/kylie/Desktop/lab4/tb_MUX5TO1.vhd|
+!i113 1
+R11
+R12
+Ccfg_tb_reg8
+etb_Reg8
+atb
+Z64 DEx4 work 4 reg8 0 22 SB7z^Z^ULX2KJ>JA>276g1
+DAx4 work 7 tb_reg8 2 tb 22 LUb@BZUS>33MFM4I7nWC53
+R1
+R2
+Z65 DEx4 work 7 tb_reg8 0 22 V8R?olK]k:JEiC<g[?nQ21
+!i122 232
+Z66 w1607280729
+R3
+Z67 8C:/Users/kylie/Desktop/lab4/tb_register.vhd
+Z68 FC:/Users/kylie/Desktop/lab4/tb_register.vhd
+l0
+L84 1
+V<5BGT<em2^^6K=]H9]^1F1
+!s100 a1ATT4UEo0dL2MaQI81nk1
+R6
+32
+R53
+!i10b 0
+R61
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/tb_register.vhd|
+Z70 !s107 C:/Users/kylie/Desktop/lab4/tb_register.vhd|
+!i113 1
+R11
+R12
+Ccfg_tb_synchronizer
+etb_synchronizer
+atb
+Z71 DEx4 work 12 synchronizer 0 22 KUiNRMO::1Wzn;?n2Oh2a3
+DAx4 work 15 tb_synchronizer 2 tb 22 _LWH2l2n]zV^hR6]IKBY>3
+R1
+R2
+Z72 DEx4 work 15 tb_synchronizer 0 22 T^f5bE;e1[[P:V?6eiPV62
+!i122 233
+Z73 w1607313685
+R3
+Z74 8C:/Users/kylie/Desktop/lab4/tb_synchronizer.vhd
+Z75 FC:/Users/kylie/Desktop/lab4/tb_synchronizer.vhd
+l0
+L71 1
+VNaHT5=7M8NT5@jg>aU;ok1
+!s100 ]>B2J<LG_PDo_om2<4glN3
+R6
+32
+R53
+!i10b 0
+R61
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/tb_synchronizer.vhd|
+Z77 !s107 C:/Users/kylie/Desktop/lab4/tb_synchronizer.vhd|
+!i113 1
+R11
+R12
+Ccfg_tb_top_level
+etb_top_level
+atb
+R15
+Z78 DEx4 work 9 top_level 0 22 OE74keURedL3m?3^Z8EER1
+DAx4 work 12 tb_top_level 2 tb 22 d_DUD[Fk?AN603WBil1CO0
+R1
+R2
+Z79 DEx4 work 12 tb_top_level 0 22 zIJcR]GGPS23@TVK:g=SK1
+!i122 234
+Z80 w1607297308
+R3
+Z81 8C:/Users/kylie/Desktop/lab4/tb_top_level.vhd
+Z82 FC:/Users/kylie/Desktop/lab4/tb_top_level.vhd
+l0
+L110 1
+V3=onMUCM0fg>1XDj:R^HA2
+!s100 5f6MSHQZP]BX8mfOJ5Vba3
+R6
+32
+R53
+!i10b 0
+R61
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/tb_top_level.vhd|
+Z84 !s107 C:/Users/kylie/Desktop/lab4/tb_top_level.vhd|
+!i113 1
+R11
+R12
+Edebounce
+Z85 w1607280598
+R1
+R2
+!i122 210
+R3
+Z86 8C:/Users/kylie/Desktop/lab4/debounce.vhd
+Z87 FC:/Users/kylie/Desktop/lab4/debounce.vhd
+l0
+L29 1
+V5YPFn4T377BzASQ3zobJL2
+!s100 =Sd0WE3I`F6QZF9aMPj0e1
+R6
+32
+Z88 !s110 1607314766
+!i10b 1
+Z89 !s108 1607314766.000000
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/debounce.vhd|
+Z91 !s107 C:/Users/kylie/Desktop/lab4/debounce.vhd|
+!i113 1
+R11
+R12
+Alogic
+R1
+R2
+DEx4 work 8 debounce 0 22 5YPFn4T377BzASQ3zobJL2
+!i122 210
+l43
+L40 27
+Vl4VHI9>cE=VY@Ma9>ZzP]2
+!s100 n>S:eQmWnAWEzR4keYU>d2
+R6
+32
+R88
+!i10b 1
+R89
+R90
+R91
+!i113 1
+R11
+R12
+Edowncounter
+Z92 w1607280605
+R47
+R15
+R1
+R2
+!i122 211
+R3
+Z93 8C:/Users/kylie/Desktop/lab4/downcounter.vhd
+Z94 FC:/Users/kylie/Desktop/lab4/downcounter.vhd
+l0
+L7 1
+VQnFPaAU=kmOB?[MPKlL881
+!s100 ?URIY>1<0Kh34Y>a^=UZ]2
+R6
+32
+R88
+!i10b 1
+R89
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/downcounter.vhd|
+Z96 !s107 C:/Users/kylie/Desktop/lab4/downcounter.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R47
+R15
+R1
+R2
+R48
+!i122 211
+l22
+L19 27
+V]HiaJV?=9Z=jZX:J=mIeL1
+!s100 fK8^<FP1?lSWZFhHJN4GO1
+R6
+32
+R88
+!i10b 1
+R89
+R95
+R96
+!i113 1
+R11
+R12
+Eduty_ledr
+Z97 w1607284857
+Z98 DPx4 work 8 lut_ledr 0 22 :MKbaX1HJ?::XAZh;V3in0
+R15
+R1
+R2
+!i122 212
+R3
+Z99 8C:/Users/kylie/Desktop/lab4/duty_ledr.vhd
+Z100 FC:/Users/kylie/Desktop/lab4/duty_ledr.vhd
+l0
+L6 1
+Vi>z`BS?3aAQg`2YcNfNBV3
+!s100 `JeYV[0zYDUH^7I87PKJ;1
+R6
+32
+R88
+!i10b 1
+R89
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/duty_ledr.vhd|
+Z102 !s107 C:/Users/kylie/Desktop/lab4/duty_ledr.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R98
+R15
+R1
+R2
+DEx4 work 9 duty_ledr 0 22 i>z`BS?3aAQg`2YcNfNBV3
+!i122 212
+l18
+R38
+VEY2:e0[[DLVXG05dja8702
+!s100 SE[[4z`lACeZ@e73`0@8W1
+R6
+32
+R88
+!i10b 1
+R89
+R101
+R102
+!i113 1
+R11
+R12
+Eflashing_change
+Z103 w1607288684
+Z104 DPx4 work 9 lut_flash 0 22 fNKL_=SbRI5LnVznjPzeS0
+R15
+R1
+R2
+!i122 214
+R3
+Z105 8C:/Users/kylie/Desktop/lab4/flashing_change.vhd
+Z106 FC:/Users/kylie/Desktop/lab4/flashing_change.vhd
+l0
+L7 1
+VM8HG9WA<c]bh4TLUHEQfO1
+!s100 Fh87fW2O1XW9f2c@C[g^00
+R6
+32
+R88
+!i10b 1
+R89
+Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/flashing_change.vhd|
+Z108 !s107 C:/Users/kylie/Desktop/lab4/flashing_change.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R104
+R15
+R1
+R2
+DEx4 work 15 flashing_change 0 22 M8HG9WA<c]bh4TLUHEQfO1
+!i122 214
+l19
+L16 20
+V_eCCXS?WFmUUSToCi14JB1
+!s100 ;:a[0HL4ka22ll:[[_C?;2
+R6
+32
+R88
+!i10b 1
+R89
+R107
+R108
+!i113 1
+R11
+R12
+Plut_buzzer
+R1
+R2
+!i122 209
+w1607225926
+R3
+8C:/Users/kylie/Desktop/lab4/buzzer_lut.vhd
+FC:/Users/kylie/Desktop/lab4/buzzer_lut.vhd
+l0
+L4 1
+V[`8;A[ET`[c3@kD9^B2L62
+!s100 <U1YU2M8H5__1o8PCE1UZ3
+R6
+32
+R88
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/buzzer_lut.vhd|
+!s107 C:/Users/kylie/Desktop/lab4/buzzer_lut.vhd|
+!i113 1
+R11
+R12
+Plut_flash
+R1
+R2
+!i122 213
+w1607225915
+R3
+8C:/Users/kylie/Desktop/lab4/flash_lut.vhd
+FC:/Users/kylie/Desktop/lab4/flash_lut.vhd
+l0
+L4 1
+VfNKL_=SbRI5LnVznjPzeS0
+!s100 i_82<zhPdTGRD@Ha`_enO1
+R6
+32
+R88
+!i10b 1
+R89
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/flash_lut.vhd|
+!s107 C:/Users/kylie/Desktop/lab4/flash_lut.vhd|
+!i113 1
+R11
+R12
+Plut_ledr
+R1
+R2
+!i122 216
+w1607280375
+R3
+8C:/Users/kylie/Desktop/lab4/lutpkg_ledr.vhd
+FC:/Users/kylie/Desktop/lab4/lutpkg_ledr.vhd
+l0
+L4 1
+V:MKbaX1HJ?::XAZh;V3in0
+!s100 OoWNl9gc8knC<?a>iZeOc1
+R6
+32
+Z109 !s110 1607314767
+!i10b 1
+Z110 !s108 1607314767.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/lutpkg_ledr.vhd|
+!s107 C:/Users/kylie/Desktop/lab4/lutpkg_ledr.vhd|
+!i113 1
+R11
+R12
+Plut_pkg
+R1
+R2
+!i122 215
+w1607280637
+R3
+8C:/Users/kylie/Desktop/lab4/LUT_pkg.vhd
+FC:/Users/kylie/Desktop/lab4/LUT_pkg.vhd
+l0
+L4 1
+V0lI>1;cEh?iNlmHmS?7Z]0
+!s100 04]C6mU3HQG]ZlQiUGDTY2
+R6
+32
+R109
+!i10b 1
+R89
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/LUT_pkg.vhd|
+!s107 C:/Users/kylie/Desktop/lab4/LUT_pkg.vhd|
+!i113 1
+R11
+R12
+Emux5to1
+Z111 w1607280641
+R1
+R2
+!i122 217
+R3
+Z112 8C:/Users/kylie/Desktop/lab4/MUX5TO1.vhd
+Z113 FC:/Users/kylie/Desktop/lab4/MUX5TO1.vhd
+l0
+L4 1
+Va77TJAXc0Y<0OeR8mD38W2
+!s100 VIYcigEdQMcKUCkbg<0J40
+R6
+32
+R109
+!i10b 1
+R110
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/MUX5TO1.vhd|
+Z115 !s107 C:/Users/kylie/Desktop/lab4/MUX5TO1.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+R56
+!i122 217
+l18
+L17 34
+VE3m>ZZGDIMhC5:HLR?4702
+!s100 JZK>4lEQ4FSAh6bnIG0?@2
+R6
+32
+R109
+!i10b 1
+R110
+R114
+R115
+!i113 1
+R11
+R12
+Epwm_buzzer
+Z116 w1607289290
+R15
+R1
+R2
+!i122 218
+R3
+Z117 8C:/Users/kylie/Desktop/lab4/pwm_buzzer.vhd
+Z118 FC:/Users/kylie/Desktop/lab4/pwm_buzzer.vhd
+l0
+L5 1
+VUPNgD@=Yzm3NV>a2Y1_ZE1
+!s100 O2OWfBM7mG9OK]<;MP9=>3
+R6
+32
+R109
+!i10b 1
+R110
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/pwm_buzzer.vhd|
+Z120 !s107 C:/Users/kylie/Desktop/lab4/pwm_buzzer.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R15
+R1
+R2
+DEx4 work 10 pwm_buzzer 0 22 UPNgD@=Yzm3NV>a2Y1_ZE1
+!i122 218
+l18
+L15 24
+VLJ^A5oUDND`4@LiQ@j^O[0
+!s100 YJhT8=MVcXFV>bP4Zg[Le2
+R6
+32
+R109
+!i10b 1
+R110
+R119
+R120
+!i113 1
+R11
+R12
+Epwm_dac
+Z121 w1607280663
+R15
+R1
+R2
+!i122 219
+R3
+Z122 8C:/Users/kylie/Desktop/lab4/PWM_DAC.vhd
+Z123 FC:/Users/kylie/Desktop/lab4/PWM_DAC.vhd
+l0
+L5 1
+VI>kRGWnCT?Xm6;AhcA8bz3
+!s100 X[VSg@a7Xi[g9]^RjTki91
+R6
+32
+R109
+!i10b 1
+R110
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/PWM_DAC.vhd|
+Z125 !s107 C:/Users/kylie/Desktop/lab4/PWM_DAC.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R15
+R1
+R2
+DEx4 work 7 pwm_dac 0 22 I>kRGWnCT?Xm6;AhcA8bz3
+!i122 219
+l17
+L14 23
+VkZj2U2elo5Q7=UfdjJUoO3
+!s100 zizg?_=JW9K6U9ZhUg0QD1
+R6
+32
+R109
+!i10b 1
+R110
+R124
+R125
+!i113 1
+R11
+R12
+Epwm_flash
+Z126 w1607289411
+R15
+R1
+R2
+!i122 220
+R3
+Z127 8C:/Users/kylie/Desktop/lab4/pwm_flash.vhd
+Z128 FC:/Users/kylie/Desktop/lab4/pwm_flash.vhd
+l0
+L5 1
+VbJdbEiY=Bm`dg]RD<l7_j0
+!s100 GAQ77:gA;0S5<@_bVO]fh0
+R6
+32
+R109
+!i10b 1
+R110
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/pwm_flash.vhd|
+Z130 !s107 C:/Users/kylie/Desktop/lab4/pwm_flash.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R15
+R1
+R2
+DEx4 work 9 pwm_flash 0 22 bJdbEiY=Bm`dg]RD<l7_j0
+!i122 220
+l20
+L16 25
+VNhEE43LEf4mGc2CV[;GzI0
+!s100 EhNVoKN8>HTh;_lf0eXnc3
+R6
+32
+R109
+!i10b 1
+R110
+R129
+R130
+!i113 1
+R11
+R12
+Ereg8
+Z131 w1607280680
+R1
+R2
+!i122 223
+R3
+Z132 8C:/Users/kylie/Desktop/lab4/register.vhd
+Z133 FC:/Users/kylie/Desktop/lab4/register.vhd
+l0
+L4 1
+VSB7z^Z^ULX2KJ>JA>276g1
+!s100 >8^[f7@[6X6eDM1C6UMXP1
+R6
+32
+R43
+!i10b 1
+R44
+Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/register.vhd|
+Z135 !s107 C:/Users/kylie/Desktop/lab4/register.vhd|
+!i113 1
+R11
+R12
+Abehav
+R1
+R2
+R64
+!i122 223
+l12
+Z136 L11 13
+VU7ZO=YHl=0WTXCCU<h^RV2
+!s100 HaU4Hi[cJ>nW1k5B1m><n1
+R6
+32
+R43
+!i10b 1
+R44
+R134
+R135
+!i113 1
+R11
+R12
+Ereg_down
+Z137 w1607280403
+R1
+R2
+!i122 221
+R3
+Z138 8C:/Users/kylie/Desktop/lab4/reg_down.vhd
+Z139 FC:/Users/kylie/Desktop/lab4/reg_down.vhd
+l0
+L4 1
+V_FH]]W:o=QgnVZ=faNEK23
+!s100 FoedI84U<;A_gKEYbo3EL0
+R6
+32
+R109
+!i10b 1
+R110
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/reg_down.vhd|
+Z141 !s107 C:/Users/kylie/Desktop/lab4/reg_down.vhd|
+!i113 1
+R11
+R12
+Abehav
+R1
+R2
+DEx4 work 8 reg_down 0 22 _FH]]W:o=QgnVZ=faNEK23
+!i122 221
+l12
+R136
+VI0b[Im08RW:EWBVGSJeU>3
+!s100 b;@z^`gBXjU9P;lHn1m233
+R6
+32
+R109
+!i10b 1
+R110
+R140
+R141
+!i113 1
+R11
+R12
+Ereg_ledr
+Z142 w1607280408
+R1
+R2
+!i122 222
+R3
+Z143 8C:/Users/kylie/Desktop/lab4/reg_ledr.vhd
+Z144 FC:/Users/kylie/Desktop/lab4/reg_ledr.vhd
+l0
+L4 1
+VLC@mbefO<Y]Tzd1;aY^3f2
+!s100 f_Wa>ET:d`7gjfS4c[QEB1
+R6
+32
+R109
+!i10b 1
+R110
+Z145 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/reg_ledr.vhd|
+Z146 !s107 C:/Users/kylie/Desktop/lab4/reg_ledr.vhd|
+!i113 1
+R11
+R12
+Abehav
+R1
+R2
+DEx4 work 8 reg_ledr 0 22 LC@mbefO<Y]Tzd1;aY^3f2
+!i122 222
+l12
+R136
+VS<LK0:fnMH51ZM3D:6hD83
+!s100 JG>g5OL_2:omha;2MU]2d2
+R6
+32
+R109
+!i10b 1
+R110
+R145
+R146
+!i113 1
+R11
+R12
+Esevensegment
+Z147 w1607280694
+R1
+R2
+!i122 224
+R3
+Z148 8C:/Users/kylie/Desktop/lab4/SevenSegment.vhd
+Z149 FC:/Users/kylie/Desktop/lab4/SevenSegment.vhd
+l0
+L5 1
+VbD[XAzC][MhHDE[[CL3O@3
+!s100 OmVSC`U@3RF?cbR0BYfoK3
+R6
+32
+R43
+!i10b 1
+R44
+Z150 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/SevenSegment.vhd|
+Z151 !s107 C:/Users/kylie/Desktop/lab4/SevenSegment.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 12 sevensegment 0 22 bD[XAzC][MhHDE[[CL3O@3
+!i122 224
+l20
+L11 50
+VZg=eT^T6U1XLQZSJ:@@gb3
+!s100 dcYihQ@U4TXj]105NfLck3
+R6
+32
+R43
+!i10b 1
+R44
+R150
+R151
+!i113 1
+R11
+R12
+Esevensegment_decoder
+Z152 w1607280688
+R1
+R2
+!i122 225
+R3
+Z153 8C:/Users/kylie/Desktop/lab4/SevenSegment_decoder.vhd
+Z154 FC:/Users/kylie/Desktop/lab4/SevenSegment_decoder.vhd
+l0
+L5 1
+VKjE^A[JI58zIZ_l229BiF2
+!s100 5AALkiToOD1k>]CGcBo?e0
+R6
+32
+R43
+!i10b 1
+R44
+Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/SevenSegment_decoder.vhd|
+Z156 !s107 C:/Users/kylie/Desktop/lab4/SevenSegment_decoder.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 20 sevensegment_decoder 0 22 KjE^A[JI58zIZ_l229BiF2
+!i122 225
+l17
+L13 41
+VVb`f0ZNi=DFcYnBe`d5bC3
+!s100 O8_8^iELzY6^?hkP8g3ah1
+R6
+32
+R43
+!i10b 1
+R44
+R155
+R156
+!i113 1
+R11
+R12
+Esynchronizer
+Z157 w1607280699
+R1
+R2
+!i122 226
+R3
+Z158 8C:/Users/kylie/Desktop/lab4/synchronizer.vhd
+Z159 FC:/Users/kylie/Desktop/lab4/synchronizer.vhd
+l0
+L5 1
+VKUiNRMO::1Wzn;?n2Oh2a3
+!s100 LCZljbEbR2f2@jSg];HXc1
+R6
+32
+R43
+!i10b 1
+R44
+Z160 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/synchronizer.vhd|
+Z161 !s107 C:/Users/kylie/Desktop/lab4/synchronizer.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+R71
+!i122 226
+l17
+L14 14
+VN4:MIXD3S`2DQ7K3GXIGD3
+!s100 QbobAbKgBD0ZaF=;?]i0;1
+R6
+32
+R43
+!i10b 1
+R44
+R160
+R161
+!i113 1
+R11
+R12
+Etb_adc_data
+R40
+R1
+R2
+!i122 227
+R3
+R41
+R42
+l0
+L8 1
+V[?lm[l=lU]Mf^aJ=5DKVD1
+!s100 L7OQmLjBP@S1i0=olKf6?2
+R6
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R11
+R12
+Atb
+R1
+R2
+R39
+!i122 227
+l36
+L11 64
+V2[P3WYUn^GW[A6j=>UhNJ0
+!s100 4XmK:gNE:_LWeL4ZWVYU91
+R6
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R11
+R12
+Etb_debounce
+Z162 w1607280711
+R1
+R2
+!i122 228
+R3
+Z163 8C:/Users/kylie/Desktop/lab4/tb_debounce.vhd
+Z164 FC:/Users/kylie/Desktop/lab4/tb_debounce.vhd
+l0
+R24
+VfC6XFVHOhZjf4l8gcO63:1
+!s100 GoKCFGem1>AF?3<JI:R:30
+R6
+32
+R43
+!i10b 1
+R44
+Z165 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/tb_debounce.vhd|
+Z166 !s107 C:/Users/kylie/Desktop/lab4/tb_debounce.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 11 tb_debounce 0 22 fC6XFVHOhZjf4l8gcO63:1
+!i122 228
+l43
+L13 130
+VV62:m71YnJhGnaD@zQkR71
+!s100 DDeITaXXWzi;QiNUIglak0
+R6
+32
+R43
+!i10b 1
+R44
+R165
+R166
+!i113 1
+R11
+R12
+Etb_downcounter
+R50
+R1
+R2
+!i122 229
+R3
+R51
+R52
+l0
+L8 1
+V6k^VW]FF=:?Im4[J]33ZA0
+!s100 kW?j:]4T;akk]2nV5U6Oh3
+R6
+32
+R53
+!i10b 1
+R44
+R54
+R55
+!i113 1
+R11
+R12
+Atb
+R1
+R2
+R49
+!i122 229
+l31
+L11 59
+V<H0hnEjVcaIK^=gzQl>Wc2
+!s100 bfRG8YdKYUN=EU;fIKgg=1
+R6
+32
+R53
+!i10b 1
+R44
+R54
+R55
+!i113 1
+R11
+R12
+Etb_mux5to1
+R58
+R1
+R2
+!i122 230
+R3
+R59
+R60
+l0
+L8 1
+V`g_d=Hm_1:nE_`@?Sc@8H2
+!s100 2n36<6DAKDd=hR_Xg8R923
+R6
+32
+R53
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R11
+R12
+Atb
+R1
+R2
+R57
+!i122 230
+l39
+L11 80
+V;`ALj5]bI?[hYYFmnO:8W1
+!s100 VK[kQk;BC;QVjbS_RUn?h3
+R6
+32
+R53
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R11
+R12
+Etb_pwm_dac
+Z167 w1607314914
+R1
+R2
+!i122 237
+R3
+Z168 8C:/Users/kylie/Desktop/lab4/tb_PWM_DAC.vhd
+Z169 FC:/Users/kylie/Desktop/lab4/tb_PWM_DAC.vhd
+l0
+L8 1
+VEhMFC_N=eHBa<gFX:0]OS0
+!s100 F`ojo60TRjPXz5Anh:B[P2
+R6
+32
+Z170 !s110 1607314925
+!i10b 1
+Z171 !s108 1607314925.000000
+Z172 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/tb_PWM_DAC.vhd|
+Z173 !s107 C:/Users/kylie/Desktop/lab4/tb_PWM_DAC.vhd|
+!i113 1
+R11
+R12
+Atb
+R1
+R2
+Z174 DEx4 work 10 tb_pwm_dac 0 22 EhMFC_N=eHBa<gFX:0]OS0
+!i122 237
+l31
+L11 66
+VHV@G^iEZZ5455d^WbJ4Tc3
+!s100 PB@E1n7Z7?0F:0?BUDEkU0
+R6
+32
+R170
+!i10b 1
+R171
+R172
+R173
+!i113 1
+R11
+R12
+Etb_reg8
+R66
+R1
+R2
+!i122 232
+R3
+R67
+R68
+l0
+L8 1
+VV8R?olK]k:JEiC<g[?nQ21
+!s100 a@zIIfZ;6VQP2:90QTd2H3
+R6
+32
+R53
+!i10b 1
+R61
+R69
+R70
+!i113 1
+R11
+R12
+Atb
+R1
+R2
+R65
+!i122 232
+l31
+L11 70
+VLUb@BZUS>33MFM4I7nWC53
+!s100 8R9i?NR2LAVM2?JQQeNVi0
+R6
+32
+R53
+!i10b 1
+R61
+R69
+R70
+!i113 1
+R11
+R12
+Etb_synchronizer
+R73
+R1
+R2
+!i122 233
+R3
+R74
+R75
+l0
+L8 1
+VT^f5bE;e1[[P:V?6eiPV62
+!s100 ^7J@bV;iWG^h2flPF3kK13
+R6
+32
+R53
+!i10b 1
+R61
+R76
+R77
+!i113 1
+R11
+R12
+Atb
+R1
+R2
+R72
+!i122 233
+l29
+L11 57
+V_LWH2l2n]zV^hR6]IKBY>3
+!s100 :2]kOHnF:DBSBnDKM=@AC1
+R6
+32
+R53
+!i10b 1
+R61
+R76
+R77
+!i113 1
+R11
+R12
+Etb_top_level
+R80
+R1
+R2
+!i122 234
+R3
+R81
+R82
+l0
+L8 1
+VzIJcR]GGPS23@TVK:g=SK1
+!s100 2e@ZcHec5JS2MgNF8KA`21
+R6
+32
+R53
+!i10b 1
+R61
+R83
+R84
+!i113 1
+R11
+R12
+Atb
+R1
+R2
+R79
+!i122 234
+l45
+L11 96
+Vd_DUD[Fk?AN603WBil1CO0
+!s100 5Y]i6HYYME3>2U[8=[1UW2
+R6
+32
+R53
+!i10b 1
+R61
+R83
+R84
+!i113 1
+R11
+R12
+Etop_level
+Z175 w1607290185
+R15
+R1
+R2
+!i122 235
+R3
+Z176 8C:/Users/kylie/Desktop/lab4/top_level.vhd
+Z177 FC:/Users/kylie/Desktop/lab4/top_level.vhd
+l0
+L5 1
+VOE74keURedL3m?3^Z8EER1
+!s100 4Q;FaL1n_2FHoFAmooP2k3
+R6
+32
+R53
+!i10b 1
+R61
+Z178 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/top_level.vhd|
+Z179 !s107 C:/Users/kylie/Desktop/lab4/top_level.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R15
+R1
+R2
+R78
+!i122 235
+l206
+L16 381
+V?z?G_@I[NBEeE?c6Gd>oX1
+!s100 OM?CA9;jVWf5T?ogSWI=c0
+R6
+32
+R53
+!i10b 1
+R61
+R178
+R179
+!i113 1
+R11
+R12
+Evoltage2distance_array2
+Z180 w1607280768
+Z181 DPx4 work 7 lut_pkg 0 22 0lI>1;cEh?iNlmHmS?7Z]0
+R15
+R1
+R2
+!i122 236
+R3
+Z182 8C:/Users/kylie/Desktop/lab4/voltage2distance_array2.vhd
+Z183 FC:/Users/kylie/Desktop/lab4/voltage2distance_array2.vhd
+l0
+L24 1
+V=NDCVZciz^K^bX6GaO`oT3
+!s100 `A`mdf8ondemfJ_=[hYQd1
+R6
+32
+Z184 !s110 1607314770
+!i10b 1
+Z185 !s108 1607314770.000000
+Z186 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/kylie/Desktop/lab4/voltage2distance_array2.vhd|
+Z187 !s107 C:/Users/kylie/Desktop/lab4/voltage2distance_array2.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R181
+R15
+R1
+R2
+DEx4 work 23 voltage2distance_array2 0 22 =NDCVZciz^K^bX6GaO`oT3
+!i122 236
+l35
+L32 11
+VEeH?6UUEXf92ElUkXFl4d3
+!s100 [6Lk_@eYiRP^?7Woz^lK[0
+R6
+32
+R184
+!i10b 1
+R185
+R186
+R187
+!i113 1
+R11
+R12
